@@ -1,0 +1,10 @@
+---
+vpc_id: vpc-51809435
+subnet_id: subnet-cb435caf
+ec2_keypair: admin
+instance_count: 2
+db_subnets:
+  - subnet-cb435caf
+  - subnet-1687df4e
+db_availability_zone: eu-west-1b
+db_username: todobackend
